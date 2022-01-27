@@ -1,5 +1,6 @@
 import {Component} from 'react';
-import Products from './Components/Products'
+import Products from './Components/Products';
+import Layout from './Components/Layout'
 
 class App extends Component{
   state ={
