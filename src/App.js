@@ -33,7 +33,7 @@ class App extends Component{
   }
 
   showCart = () =>{
-    if(this.state.cart.length){
+    if(!this.state.cart.length){
       return
     }
     this.setState({visibility: !this.state.visibility })
