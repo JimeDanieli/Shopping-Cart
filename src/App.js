@@ -7,9 +7,10 @@ import Navbar from './Components/Navbar'
 class App extends Component{
   state ={
     products: [
-      {name: 'Tomate', price: 1500, img:'/Assets/tomate.jpg' },
-      {name: 'Lettuce', price: 2500, img:'/Assets/lechuga.jpg' },
-      {name: 'Peas', price: 500, img:'/Assets/arvejas.jpg' }
+      {name: 'Tomato', price: 150, img:'/Assets/tomate.jpg' },
+      {name: 'Lettuce', price: 400, img:'/Assets/lechuga.jpg' },
+      {name: 'Peas', price: 500, img:'/Assets/arvejas.jpg' },
+      {name: 'Radishes', price: 180, img:'/Assets/Radish.jpg'},
     ],
     cart:[],
     visibility: false,

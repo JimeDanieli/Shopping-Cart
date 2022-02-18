@@ -3,9 +3,9 @@ import Product from './Product'
 
 const styles={
     products:{
-        dispaly:'flex,',
+        display:'flex',
         flexDirection:'row',
-        justifyContent:'space-between'
+        justifyContent:'space-between',
     }
 }
 class Products extends Component {
