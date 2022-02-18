@@ -10,7 +10,7 @@ class App extends Component{
       {name: 'Tomato', price: 150, img:'/Assets/tomate.jpg' },
       {name: 'Lettuce', price: 400, img:'/Assets/lechuga.jpg' },
       {name: 'Peas', price: 500, img:'/Assets/arvejas.jpg' },
-      {name: 'Radishes', price: 180, img:'/Assets/Radish.jpg'},
+      /* {name: 'Radishes', price: 180, img:'/Assets/Radish.jpg'}, */
     ],
     cart:[],
     visibility: false,
